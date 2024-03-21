@@ -69,15 +69,12 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: Implementation :: CPython',
     ],
     install_requires=[
-        'h2>=2.4,<3.0,!=2.5.0', 'hyperframe>=3.2,<4.0', 'rfc3986>=1.1.0,<2.0', 'brotlipy>=0.7.0,<1.0'
+        'h2>=2.4,<3.0,!=2.5.0', 'hyperframe>=3.2', 'rfc3986>=1.1.0,<2.0', 'brotlipy>=0.7.0,<1.0'
     ],
     tests_require=['pytest', 'requests', 'mock'],
     cmdclass={'test': PyTest},
