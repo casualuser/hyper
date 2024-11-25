@@ -74,7 +74,7 @@ setup(
         'Programming Language :: Python :: Implementation :: CPython',
     ],
     install_requires=[
-        'h2>=2.6.0', 'hyperframe>=3.2', 'rfc3986>=1.1.0,<2.0', 'brotlipy>=0.7.0,<1.0'
+        'h2>=2.6.0,<3.0.0', 'hyperframe>=3.2', 'rfc3986>=1.1.0,<2.0', 'brotlipy>=0.7.0,<1.0'
     ],
     tests_require=['pytest', 'requests', 'mock'],
     cmdclass={'test': PyTest},
